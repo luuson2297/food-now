@@ -1,0 +1,51 @@
+
+.containerr {
+    padding-top: 15px;
+    // box-sizing: border-box;
+.col-4 { 
+   text-align: center;
+    width: 100px;
+   
+    .card-title{ 
+        font-size: 25px;
+        color :rgb(99, 93, 93);
+    }
+    .card {
+        height: auto;
+    }
+    .card-img-top {
+        // width:  350px ;
+        // height: 250px;
+        object-fit: cover;
+        background-image : cover;
+        background-size: cover;
+        border-radius: 10px;
+       
+        max-width: 100%;
+        height: auto;
+    }
+    strong {
+        margin : auto;
+    }
+    .card-footer {
+       background-color : #fff;
+    }
+}
+
+
+.product-detail{
+  transform : translateX(31%);
+
+  .card-detail{
+    width : 30rem;
+  }
+
+  .card-body{
+    text-align: center;
+  
+  }
+  .price{
+    font-size:20px;
+    font-weight: bold;
+  }
+}}
